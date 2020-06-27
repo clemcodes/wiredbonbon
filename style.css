@@ -1,0 +1,144 @@
+
+.navbar-brand{
+  padding: 1px;
+}
+
+.fixed{
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  align-items: end;
+}
+
+
+h2,h4,.nav-link,.dropdown-item{
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+
+p, .btn{
+  font-family: "Avenir Next";
+}
+
+.about{
+  background-color:#F5F5F5;
+  padding: 50px;
+}
+
+
+.social-menu ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-menu ul li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+.social-menu ul li .fa{
+  font-size: 25px;
+  line-height: 65px;
+  transition: .6s;
+  color: #000;
+}
+
+.social-menu ul li a{
+  position: relative;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #fff;
+  text-align: center;
+  transition: 0.6s;
+  box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+
+.social-menu ul li a:hover{
+  transform:translate(0,-10px)
+}
+
+
+.explore{
+  display: grid;
+  grid-template-columns:repeat(autofill minmax(60px,1fr));
+  text-align: center;
+  
+}
+
+
+.row{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+
+.card{
+  border: none;
+  margin-bottom: 20px;
+  align-self:center;
+  box-shadow: 1px 1px 3px #F5F5F5;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.btn-primary{
+  background-color: lightpink;
+  border: none;
+}
+
+.btn-primary:hover{
+  background-color: #FC8082;
+}
+
+.btn-primary:focus{
+  background-color: lightpink;
+}
+
+
+
+.card-body{
+  padding: 10px;
+}
+
+.visit-us{
+  background-color:#B9DFE9;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.list-group{
+  padding-right: 20px;
+}
+
+.list-group li{
+  background-color:#B9DFE9;
+  display: inline-flex;
+  justify-content: space-between; 
+}
+
+iframe{
+    width: inherit;
+    height: 18rem;
+    align-self: end;
+}
+
+
+/* #B9DFE9 */
+/* .showcase{
+  height: 80vh;
+
+} */
