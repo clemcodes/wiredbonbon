@@ -13,7 +13,6 @@
 
 
 h2,h4,.nav-link,.dropdown-item{
-  font-family: 'Josefin Sans', sans-serif;
   font-family: 'Tenali Ramakrishna', sans-serif;
 }
 
@@ -142,3 +141,12 @@ iframe{
   height: 80vh;
 
 } */
+
+.attribution{
+  text-align: center;
+  font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.attribution a{
+  color:rgb(129, 154, 160)
+}
